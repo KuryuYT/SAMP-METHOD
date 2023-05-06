@@ -117,7 +117,7 @@ def run2():
 			print(i +" Sent!!!")
 		except:
 			s.close()
-			print("TRS ATTACK TO " + ip)
+			print("ATTACK TO " + ip)
 
 for y in range(threads):
 	if choice == "y":
